@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4b0ba862dda68844be640c202fdef4d, type: 3}
+  m_Name: DoubleAtk_item
+  m_EditorClassIdentifier: 
+  itemDesc: "\uB450\uBC88 \uC5F0\uC18D \uACF5\uACA9\uD558\uB294 \uC544\uC774\uD15C"
+  itemName: "\uB354\uBE14\uC5B4\uD0DD"
+  itemImage: {fileID: 21300000, guid: 3024f64cfb7de2745a386182eb2a74db, type: 3}
+  itemPrefab: {fileID: 4461665805351943664, guid: 1756eb48cb3ccfe46a11c63e31fa3248, type: 3}
+  effectSO: {fileID: 11400000, guid: 18fd2f6ba092ad445bc023e891a1b80a, type: 2}
