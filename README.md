@@ -6,11 +6,10 @@
 + 게임 장르
 + 게임 설명
 
-Steamworks.NET
 ## 2. 개발환경
 + 언어: C#
 
-+ 엔진: Unity 2D
++ 엔진: Unity_2022.3.60f1
 
 + 네트워크: Mirror + Steamworks.NET
 
