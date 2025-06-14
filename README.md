@@ -49,20 +49,8 @@
   - RoomListItem.cs: Steam Lobby의 각 방 정보를 UI로 표시.
   - PlayerSlot.cs : Steam 유저의 정보를 UI로 표시(닉네임, 프로필 사진).
     
-## 4. 게임 흐름
-  - SteamLobby.cs
-    방 생성 → Steam Lobby 연결 → CustomNetworkManager로 Mirror 서버 시작
-
-  - CustomNetworkManager.cs
-    플레이어 입장 → GamePlayer 목록 관리 → 게임 시작
-    게임 진행
-    플레이어는 셀 위에 은닉
-    턴마다 공격 후 이동
-    아이템 획득으로 전략적 이득을 취할 수 있음
-
-  - 게임 종료
-    한 플레이어 사망 시 게임 종료
-    
+## 4. 기술 문서
+ https://docs.google.com/presentation/d/1p8HLOtRiHHoiiGIYJMOrIhoHaxApWBR2cliikdRgvl4/edit?slide=id.p#slide=id.p
 
 ## 5. 구현 중 겪은 문제와 해결 방법
 
