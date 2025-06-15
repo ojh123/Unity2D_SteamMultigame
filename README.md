@@ -13,7 +13,7 @@
 ## 2. 게임 설명
   + 이 게임은 **2인의 플레이어**가 **숨겨진 위치**에서 **턴마다 공격을 수행**하고 움직이며, **심리전과 추리**를 통해 **상대방을 찾아 처치**하는 **전략적 대전 게임**입니다.
 
-  + 게임 방법:
+  + **게임 방법**:
      타일 기반 맵에서 **상대방의 위치**를 유추
 
      **타일 파괴**를 통해 간접적으로 상대의 존재를 확인
@@ -22,32 +22,32 @@
 
 ## 3. 주요 시스템 및 기능 설명
 + **네트워크 매니저** (CustomNetworkManager.cs)
-  - Mirror 기반의 네트워크 연결을 설정하고, 플레이어들을 관리합니다.
+  - **Mirror** 기반의 **네트워크 연결**을 설정하고, 플레이어들을 관리합니다.
 
 + **Steam 로비** (SteamLobby.cs)
-  - Steamworks.NET을 이용한 P2P 매치메이킹 시스템.
+  - **Steamworks.NET**을 이용한 **P2P 매치메이킹** 시스템.
   - 방 생성 / 참가 / 나가기 / 방 정보 동기화 처리.
-  - RoomListItem을 생성하여 유저에게 방 목록을 UI로 제공.
-  - Steam Lobby 데이터를 Mirror에 전달함으로써 연동 완료.
+  - **RoomListItem을 생성**하여 유저에게 **방 목록을 UI**로 제공.
+  - **Steam Lobby** 데이터를 **Mirror에 전달**함으로써 연동 완료.
 
 + **아이템 시스템**
-  - ItemSpawner.cs: 맵에 아이템을 랜덤으로 생성함.
-  - Item.cs: 아이템의 ID, 이름, 설명, 스프라이트 등 정의.
-  - ItemDatabase.cs: 아이템 종류들을 관리.
-  - ItemPickup.cs: 플레이어가 아이템을 획득할 때 효과 발동을 처리.
-  - ItemEffect.cs: 다양한 아이템 효과가 인터페이스(IItemEffect) 기반으로 구현됨.
+  - **ItemSpawner.cs**: 맵에 **아이템**을 **랜덤으로 생성**함.
+  - **Item.cs**: 아이템의 ID, 이름, 설명, 스프라이트 등 정의.
+  - **ItemDatabase.cs**: **아이템 종류**들을 **관리**.
+  - **ItemPickup.cs**: 플레이어가 아이템을 **획득**할 때 **효과 발동을 처리**.
+  - **ItemEffect.cs**: 다양한 **아이템 효과**가 **인터페이스(IItemEffect) 기반으로 구현**됨.
 
 + **맵 / 셀 시스템**
-  - CellController.cs: 각 셀의 파괴 여부, 플레이어가 있는지 여부 등을 관리.
-  - 플레이어는 셀 위에 숨겨져 있으며, 셀 파괴 등을 통해 상대를 추적 가능.
+  - **CellController.cs**: **각 셀의 파괴 여부**, 플레이어가 있는지 여부 등을 관리.
+  - 플레이어는 **셀 위에 숨겨져** 있으며, **셀 파괴** 등을 통해 **상대를 추적** 가능.
 
 + **플레이어**
   - 플레이어 이동, 상태(이동, 공격, 피격, 사망), 애니메이션 처리.
-  - Mirror에서 상태 동기화를 통해 멀티플레이어 환경 구성.
+  - **Mirro**r에서 **상태 동기화**를 통해 멀티플레이어 환경 구성.
 
 + **UI 시스템**
-  - RoomListItem.cs: Steam Lobby의 각 방 정보를 UI로 표시.
-  - PlayerSlot.cs : Steam 유저의 정보를 UI로 표시(닉네임, 프로필 사진).
+  - **RoomListItem.cs**: **Steam Lobby**의 **각 방 정보**를 **UI로 표시**.
+  - **PlayerSlot.cs** : **Steam 유저**의 **정보를 UI**로 표시(닉네임, 프로필 사진).
     
 ## 4. 기술 문서
  https://docs.google.com/presentation/d/1p8HLOtRiHHoiiGIYJMOrIhoHaxApWBR2cliikdRgvl4/edit?slide=id.p#slide=id.p
