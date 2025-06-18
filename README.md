@@ -41,6 +41,12 @@
   - **CellController.cs**: 각 셀의 **파괴 여부**, **플레이어 은닉** 여부 관리
   - 클릭 시 **턴 상태**에 따라 **스폰/이동/공격** 처리
   - **셀 파괴** 시 **상대 및 아이템 위치 노출**, **이펙트 출력** 등 동기화 처리.
+  - ![image](https://github.com/user-attachments/assets/3746a9e7-978c-476b-8c9a-c7d046485f01)
+  - ![image](https://github.com/user-attachments/assets/5d75210b-9a09-4eb0-96a8-3402673827d0)
+  - ![image](https://github.com/user-attachments/assets/e10859aa-06d8-4ea0-9b08-c74fb1a8325d)
+
+
+
 
 + **플레이어**
   - 플레이어 이동, 상태(이동, 공격, 피격, 사망), 애니메이션 처리.
