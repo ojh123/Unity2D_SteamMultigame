@@ -40,7 +40,7 @@
 + **셀(타일)**
   - **CellController.cs**: 각 셀의 **파괴 여부**, **플레이어 은닉** 여부 관리
   - 클릭 시 **턴 상태**에 따라 **스폰/이동/공격** 처리
-  - **셀 파괴** 시 **상대 위치 노출**, **이펙트 출력** 등 동기화 처리.
+  - **셀 파괴** 시 **상대 및 아이템 위치 노출**, **이펙트 출력** 등 동기화 처리.
 
 + **플레이어**
   - 플레이어 이동, 상태(이동, 공격, 피격, 사망), 애니메이션 처리.
@@ -48,8 +48,8 @@
 
 + **UI**
   - **RoomListItem.cs**: **Steam Lobby**의 **각 방 정보**를 **UI로 표시**.
-  - **PlayerSlot.cs** : **Steam 유저**의 **정보를 UI**로 표시(닉네임, 프로필 사진).
   - ![image](https://github.com/user-attachments/assets/627d46f2-ade7-445b-b2d8-207d1fd75164)
+  - **PlayerSlot.cs** : **Steam 유저**의 **정보를 UI**로 표시(닉네임, 프로필 사진).
   - ![image](https://github.com/user-attachments/assets/970b0458-7324-46e7-81e5-c53409cebdc2)
 
     
