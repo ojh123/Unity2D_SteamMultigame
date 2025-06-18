@@ -49,6 +49,9 @@
 + **UI**
   - **RoomListItem.cs**: **Steam Lobby**의 **각 방 정보**를 **UI로 표시**.
   - **PlayerSlot.cs** : **Steam 유저**의 **정보를 UI**로 표시(닉네임, 프로필 사진).
+  - ![image](https://github.com/user-attachments/assets/627d46f2-ade7-445b-b2d8-207d1fd75164)
+  - ![image](https://github.com/user-attachments/assets/970b0458-7324-46e7-81e5-c53409cebdc2)
+
     
 ## 4. 기술 문서
  https://docs.google.com/presentation/d/1p8HLOtRiHHoiiGIYJMOrIhoHaxApWBR2cliikdRgvl4/edit?slide=id.p#slide=id.p
