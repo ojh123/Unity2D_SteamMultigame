@@ -44,17 +44,17 @@
  
     
     
-- 플레이어의 턴 상태에 따라 셀을 클릭하면 스폰 / 이동 / 공격 중 하나가 실행됩니다.
+
 <img src="https://github.com/user-attachments/assets/3746a9e7-978c-476b-8c9a-c7d046485f01" alt="셀 전체 보여주기" width="500"/>
+플레이어의 턴 상태에 따라 셀을 클릭하면 스폰 / 이동 / 공격 중 하나가 실행됩니다.
 
 
-- 이동할 수 있는 범위는 초록색 아웃라인으로 표시됩니다.
 <img src="https://github.com/user-attachments/assets/5d75210b-9a09-4eb0-96a8-3402673827d0" alt="셀 이동 예시" width="500"/>
 
+이동할 수 있는 범위는 초록색 아웃라인으로 표시됩니다.
 
-- 파괴된 셀 위에 있는 아이템이나 플레이어는 노출이 됩니다.
 <img src="https://github.com/user-attachments/assets/e10859aa-06d8-4ea0-9b08-c74fb1a8325d" alt="아이템 노출 예시" width="500"/>
-
+파괴된 셀 위에 있는 아이템이나 플레이어는 노출이 됩니다.
 
 
 
